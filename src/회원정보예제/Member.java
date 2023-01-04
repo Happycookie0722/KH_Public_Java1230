@@ -18,11 +18,9 @@ public class Member {
         while (true) {
         System.out.print("나이를 입력하세요 : ");
         age = sc.nextInt();
-            if (age < 0 || age < 100) return;
-            {
-                System.out.println("나이를 잘못 입력하셨습니다.");
+            if (age > 0 && age < 200) break;
+            else System.out.println("나이를 잘못 입력 하셨습니다. 다시 입력 하세요.");
             }
-        }
     }
     public void setGender() {
         while(true) {
