@@ -10,6 +10,6 @@ public class StringSplit {
         Scanner sc = new Scanner(System.in);
         int in = sc.nextInt();
 
-        String num1 = in.split(":");
+        //String num1 = in.split(":");
     }
 }
