@@ -1,0 +1,26 @@
+package 최대값최소값구하기;
+// 정수를 입력 받음 (배열의 갯수)
+// 입력 받은 정수의 갯수 크기만큼의 배열 생성
+// 배열의 크기만큼 순회하면서 임의의 정수 값 입력
+// 입력받은 배열에서 최소값과 최대값 입력
+// 정수값 : 10 를 입력 시
+// 1 3 5 7 2 6 12 34 9 11
+// MIN : 1
+// MAX : 34 가 출력되도록 설정
+
+import java.util.Scanner;
+
+public class Etc {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // 정수값 입력받기
+        System.out.print("정수 값을 입력하세요 : ");
+        // 입력 받은 정수값으로 배열 생성
+        int number = sc.nextInt();
+        // 생성된 배열의 크기만큼 순회하면서 임의의 정수 입력 받음
+
+        // 최소값, 최대값을 구하기 위해 배열의 첫번째값 대입
+        // 반목문을 순회하면서 최소값과 최대값 찾기
+    }
+}
