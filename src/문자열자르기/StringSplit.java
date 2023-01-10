@@ -8,8 +8,15 @@ import java.util.Scanner;
 public class StringSplit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int in = sc.nextInt();
+        System.out.print("시간 입력 : ");
+        String times = sc.next();
+        String[] splitTime = times.split(":");  // splitTime 문자열 배열 생성
+        int hour = Integer.parseInt(splitTime[0]);    // 문자열을 정수로 변환
+        int min = Integer.parseInt(splitTime[1]);
+        int sec = Integer.parseInt(splitTime[2]);
 
-        //String num1 = in.split(":");
+        if(hour > 11) System.out.printf("오후%02d시 %02d분 %02d초\n", (hour - 12), min, sec)  ;
+        else System.out.printf("오전 %02d시 %02d분 %02초\n" + hour, min, sec);
     }
+
 }

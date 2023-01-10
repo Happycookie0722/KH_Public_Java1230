@@ -6,7 +6,7 @@ public class StringEx {
         String a = "hello";
         String b = "Java";
         String c = "hello";
-//        System.out.println(a.equals(b)); // a문자열과 b문자열을 비교해서 결과가 같으면 true,
+    //    System.out.println(a.equals(b)); // a문자열과 b문자열을 비교해서 결과가 같으면 true, 틀리면 false
 //        System.out.println(a.equals(c));
 //        System.out.println(a.equalsIgnoreCase("HELLO")); // 대소문자 구분하지 않고 입력된 단어와 맞는지만 확인
 //        System.out.println(a == c);
