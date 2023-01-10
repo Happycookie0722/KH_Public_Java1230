@@ -8,7 +8,6 @@ import java.util.Scanner;
 // 1000 1500 2000
 public class SetMenu {
     public static void main(String[] args) {
-
         /*
 
 
