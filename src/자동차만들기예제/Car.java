@@ -7,8 +7,8 @@ public class Car {
     int seat;
     String name;
     boolean isMode;
-    int distance;
-    int totalCost;
+    int distance = 200;
+    int totalCost = 1;
 
 
     int getCost() {

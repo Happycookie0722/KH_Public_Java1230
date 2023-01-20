@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CarMain extends Car {
     public static void main(String[] args) {
-        Car car = new Car();
+        Car car = null;
         Scanner sc = new Scanner(System.in);
 
         System.out.print("이동 지역 선택 [1] 부산 [2] 대전 [3] 강릉 [4] 광주 : ");
