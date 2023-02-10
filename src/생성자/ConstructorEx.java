@@ -37,7 +37,7 @@ class Car {
         this.name = name;
         this.year = year;
     }
-    // 동일한
+
     Car(String name, String year, String color) {
         this.name = name;
         this.year = year;

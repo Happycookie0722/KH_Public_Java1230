@@ -9,7 +9,7 @@ import java.io.OutputStream;
 // 바이트 스트림의 최상위 추상클래스는 OutputStream
 // 최상위 밑에 FileOutputStream, BufferedOutputStream, DataOutputStream, PrintStream 이 있다.
 // close() : 스트림을 닫음
-// flush() : 스트림 버퍼의 내용을 모두 내보냄.
+// flush() : 스트림 버퍼의 내용을 모두 내보냄. (비우기)
 // write() : 값을 출력
 public class ByteOutStreamEx {
     public static void main(String[] args) throws IOException {
